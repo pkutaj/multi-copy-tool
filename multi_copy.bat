@@ -1,0 +1,1 @@
+start powershell -noexit "& "".\multi_copy.ps1"""; exit
