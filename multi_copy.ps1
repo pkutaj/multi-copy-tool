@@ -17,7 +17,7 @@
  # 2019-08-01 14:03:33, brno
  #>
  
- # 0.1 | Create an intro +outro here-string with an ascii art proper
+# 0.1 | Create an intro +outro here-string with an ascii art proper
 $intro = @"
 ______________________________________________________________________
  |___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
@@ -34,9 +34,10 @@ _|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
  
 "@
 
+
 $outro = @"
 ______________________________________________________________________
- |___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
+|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
 ___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
 _|___|__                                                     |___|___|
 ___|___|            D O N E :) C A R P E D I E M            __|___|__
@@ -68,6 +69,7 @@ function multiCopy {
         }
         catch {
             Write-Host "oops, debug please"
+            Pause
         }
     }
     Write-Host $outro -ForegroundColor Cyan
@@ -79,4 +81,4 @@ function multiCopy {
 Write-Host @intro -ForegroundColor Cyan
 Pause 
 Clear-Host
-multiCopy
+multiCopy 
