@@ -1,7 +1,7 @@
 ## PURPOSE 
    The aim of this script is to create a mutation of total commander's multi-rename tool, but it should create X copies of an existing template file with incremental numbering
 
-![multi-copy_demo](.\multi_copy.gif)
+![multi-copy_demo](multi_copy.gif)
 
 ## TOC
  
